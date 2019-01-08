@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "deploymentId": "5c29d6045e348313eae18be9",
+            "createTime": "2018-12-31T08:40:36.000Z",
+            "startTime": "2018-12-31T08:40:37.205Z",
+            "endTime": "2018-12-31T08:41:50.288Z",
+            "instances": [
+                {
+                    "instanceId": "5c29d6045e348313eae18be9-0",
+                    "publicIPAddress": "3.16.38.160",
+                    "status": "TERMINATED",
+                    "region": "us-east-2"
+                }
+            ]
+        }
+	]
+}

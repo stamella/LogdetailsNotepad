@@ -1,0 +1,40 @@
+1)https://anypoint.mulesoft.com/accounts/login
+
+POST:{
+	"username":"swkondur",
+   "password":"Vasantha@3"
+	
+} ------ TO GET ACCESS TOKEN
+
+
+2)https://anypoint.mulesoft.com/accounts/api/me -----TO GET ORGANISATION ID USING ACCESS TOKEN
+
+3)https://anypoint.mulesoft.com/accounts/api/organizations/YOUR_ORG_ID/environments -----PASSING ORGANISATION ID AS HEADER TO GET ENVIRONMENT ID
+
+
+
+
+c1d42237-8cfd-4d52-af83-b55c96119488 oi
+
+d207f0c0-ac12-4d38-bdaa-7ab0d059927b at
+
+name:(flowVars.env.*iterate.toString())
+
+%function iterate(response,counter) response when counter >= flowVars.env.name otherwise iterate(response ++ [{"name":"design"}],counter+1)
+
+
+payload map {
+        name: $.name
+
+(flatten payload) groupBy ($.name) map ((payload01 , indexOfPayload01) ->
+
+
+(payload groupBy ($.name) map {
+     name: payload.data.name,
+
+
+
+
+--------------CLOUDHUB API LOG LINK-------------
+
+https://anypoint.mulesoft.com/apiplatform/anypoint-platform/#/portals/organizations/68ef9520-24e9-4cf2-b2f5-620025690913/apis/8617/versions/112020/pages/107964

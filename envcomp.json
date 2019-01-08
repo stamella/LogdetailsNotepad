@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "id": "0a558ced-1a33-47a4-91ae-d841fa02c437",
+            "name": "Design",
+            "organizationId": "c1d42237-8cfd-4d52-af83-b55c96119488",
+            "isProduction": false,
+            "type": "design",
+            "clientId": "0e6705363e5f4f9db10de66fdece853b"
+        },
+        {
+            "id": "2d135b95-3db5-4627-a942-505c20aaa426",
+            "name": "Sandbox",
+            "organizationId": "c1d42237-8cfd-4d52-af83-b55c96119488",
+            "isProduction": false,
+            "type": "sandbox",
+            "clientId": "be57a79993c843288c22ce954de2a3ff"
+        },
+        {
+            "id": "205f18e9-3ab8-4e96-a3d5-7cafc822a4de",
+            "name": "test",
+            "organizationId": "c1d42237-8cfd-4d52-af83-b55c96119488",
+            "isProduction": false,
+            "type": "sandbox",
+            "clientId": "e7b29bf294d84ccda945d187cc70c7ae"
+        }
+    ],
+    "total": 3
+}

@@ -1,0 +1,17 @@
+payload.data[0].instances[0].status
+
+payload.data[0].instances[0].instanceId
+
+
+
+
+
+
+
+
+if(payload.data.instances.status=="STARTED") {
+  return instanceId=getPayload.data.instances.instanceId;
+}
+else {
+   return instanceId= 0;
+}

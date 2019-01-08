@@ -1,0 +1,40 @@
+[
+    {
+        "id": "5c29d6035e348313eae18b4d",
+       
+        "domain": "applicationlist",
+        "fullDomain": "applicationlist.us-e2.cloudhub.io",
+        "properties": {},
+        "propertiesOptions": {},
+        "status": "STARTED",
+        "workers": 1,
+        "workerType": "Micro",
+       
+        "filename": "applicationlists.zip",
+        "remainingWorkerCount": 7,
+        "muleVersion": "3.8.3",
+        "region": "us-east-2",
+        
+        "staticIPsEnabled": false
+       
+    },
+    {
+        "id": "5c29d8efe1444b13cfbd86a7",
+        
+        "domain": "simpleap",
+        "fullDomain": "simpleap.us-e2.cloudhub.io",
+        "properties": {},
+        "propertiesOptions": {},
+        "status": "STARTED",
+        "workers": 1,
+        "workerType": "Micro",
+        
+        "filename": "simple.zip",
+        
+        "muleVersion": "3.8.3",
+        "region": "us-east-2",
+        
+        "staticIPsEnabled": false
+        
+    }
+]

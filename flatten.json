@@ -1,0 +1,20 @@
+(flatten payload) groupBy ($.status) map ((payload01 , indexOfPayload01) -> {
+	
+	vcore: flowVars.OrgInfo.entitlement,
+	testname:flowVars.TestEnvironment.testname,
+	id: payload01.id,
+	fullDomain: payload01.fullDomain,
+	properties: {
+		env: payload01.properties.env
+	},
+	propertiesOptions: payload01.propertiesOptions,
+	status: payload01.status,
+	workers: payload01.workers,
+	workerType: payload01.workerType,
+	filename: payload01.filename,
+	muleVersion: payload01.muleVersion,
+	region: payload01.region,
+	staticIPsEnabled: payload01.staticIPsEnabled
+	
+	
+})

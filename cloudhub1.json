@@ -1,0 +1,60 @@
+[
+    {
+        "id": "5c29d6035e348313eae18b4d",
+        "href": "http://anypoint.mulesoft.com:8080/api/applications/applicationlist",
+        "domain": "applicationlist",
+        "fullDomain": "applicationlist.us-e2.cloudhub.io",
+        "properties": {},
+        "propertiesOptions": {},
+        "status": "STARTED",
+        "workers": 1,
+        "workerType": "Micro",
+        "lastUpdateTime": 1546247955313,
+        "filename": "applicationlists.zip",
+        "remainingWorkerCount": 7,
+        "muleVersion": "3.8.3",
+        "region": "us-east-2",
+        "deploymentGroupId": "5ac685b0de9e5022ac802745",
+        "hasFile": true,
+        "staticIPsEnabled": false,
+        "persistentQueues": false,
+        "monitoringAutoRestart": true,
+        "encryptedPersistentQueues": false,
+        "ipAddresses": [],
+        "secureDataGateway": {
+            "connected": false
+        },
+        "secureDataGatewayEnabled": false,
+        "loggingNgEnabled": true,
+        "loggingCustomLog4JEnabled": false
+    },
+    {
+        "id": "5c29d8efe1444b13cfbd86a7",
+        "href": "http://anypoint.mulesoft.com:8080/api/applications/simpleap",
+        "domain": "simpleap",
+        "fullDomain": "simpleap.us-e2.cloudhub.io",
+        "properties": {},
+        "propertiesOptions": {},
+        "status": "STARTED",
+        "workers": 1,
+        "workerType": "Micro",
+        "lastUpdateTime": 1546246454493,
+        "filename": "simple.zip",
+        "remainingWorkerCount": 7,
+        "muleVersion": "3.8.3",
+        "region": "us-east-2",
+        "deploymentGroupId": "5ac685b0de9e5022ac802745",
+        "hasFile": true,
+        "staticIPsEnabled": false,
+        "persistentQueues": false,
+        "monitoringAutoRestart": true,
+        "encryptedPersistentQueues": false,
+        "ipAddresses": [],
+        "secureDataGateway": {
+            "connected": false
+        },
+        "secureDataGatewayEnabled": false,
+        "loggingNgEnabled": true,
+        "loggingCustomLog4JEnabled": false
+    }
+]

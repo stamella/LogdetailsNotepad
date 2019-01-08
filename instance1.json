@@ -1,0 +1,47 @@
+{
+    "data": [
+        {
+            "deploymentId": "5c29d6045e348313eae18be9",
+            "createTime": "2018-12-31T08:40:36.000Z",
+            "startTime": "2018-12-31T08:40:37.205Z",
+            "endTime": "2018-12-31T08:41:50.288Z",
+            "instances": [
+                {
+                    "instanceId": "5c29d6045e348313eae18be9-0",
+                    "publicIPAddress": "3.16.38.160",
+                    "status": "TERMINATED",
+                    "region": "us-east-2"
+                }
+            ]
+        },
+        {
+            "deploymentId": "5c29de384f72bf13e2592ae6",
+            "createTime": "2018-12-31T09:15:36.979Z",
+            "startTime": "2018-12-31T09:15:37.322Z",
+            "endTime": "2018-12-31T09:16:53.168Z",
+            "instances": [
+                {
+                    "instanceId": "5c29de384f72bf13e2592ae6-0",
+                    "publicIPAddress": "3.17.73.97",
+                    "status": "TERMINATED",
+                    "region": "us-east-2"
+                }
+            ]
+        },
+        {
+            "deploymentId": "5c29debfe872fd13e4dec853",
+            "createTime": "2018-12-31T09:17:51.059Z",
+            "startTime": "2018-12-31T09:17:52.466Z",
+            "endTime": "2018-12-31T09:19:15.739Z",
+            "instances": [
+                {
+                    "instanceId": "5c29debfe872fd13e4dec853-0",
+                    "publicIPAddress": "18.224.68.177",
+                    "status": "STARTED",
+                    "region": "us-east-2"
+                }
+            ]
+        }
+    ],
+    "total": 3
+}
